@@ -20,7 +20,8 @@
       "task_subtype": "semantic_segmentation"
     },
     "segmentation_type": "semantic_segmentation",
-    "task_subtype": "semantic_segmentation"
+    "task_subtype": "semantic_segmentation",
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Area-array camera",
@@ -51,7 +52,9 @@
           "id": 1,
           "name": "crack",
           "description": "CrackTree260 class: crack",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "crack",
+          "instances": 1272
         }
       ]
     }
@@ -71,9 +74,9 @@
     "split": {
       "data": {
         "n_images": 260,
-        "percentage": 1.0,
+        "percentage": 1,
         "n_images_with_annotations": 260,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "188.63 MB",
         "dataset_size_bytes": 197787794,
         "dataset_file_count": 520
@@ -86,7 +89,7 @@
         "name": "China",
         "image_count": 260,
         "annotated_image_count": 260,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1
       }
     ],
     "temporal_scope": "CrackTree 2012, reused by DeepCrack 2019"
@@ -153,5 +156,31 @@
     "article_title": "DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection",
     "journal": "IEEE Transactions on Image Processing",
     "year": 2019
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": []
   }
 }
