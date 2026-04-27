@@ -6,7 +6,7 @@ CrackTree260 is a task-specific segmentation package derived from the DeepCrack 
 
 - Task: segmentation
 - Images: 260
-- Annotations: 1272
+- Annotations: 1231
 - Classes: 1 (crack)
 - Annotation format: paired bitmap masks
 

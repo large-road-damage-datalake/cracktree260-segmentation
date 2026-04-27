@@ -4,7 +4,7 @@
 - Source dataset: DeepCrack (CrackTree260)
 - Task: segmentation
 - Image count: 260
-- Annotation count: 1272
+- Annotation count: 1231
 - Class setup: 1 (crack)
 
 Primary references:
