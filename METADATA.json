@@ -4,7 +4,7 @@
     "id": "cracktree260-segmentation",
     "name": "CrackTree260",
     "short_name": "cracktree260-seg",
-    "description": "Segmentation packaging of CrackTree260 from DeepCrack, with pixel-level crack masks for top-down road pavement imagery.",
+    "description": "CrackTree260 is a pavement crack segmentation subset from the DeepCrack benchmark containing 260 top-down area-array road-surface images (206 at 800x600 and 54 at 960x720) captured under visible-light illumination with pixel-level binary crack masks.",
     "year": 2019
   },
   "project_context": {
@@ -129,9 +129,11 @@
         "annotation_coverage": 1.0,
         "dataset_size": "188.63 MB",
         "dataset_size_bytes": 197787794,
-        "dataset_file_count": 520
+        "dataset_file_count": 520,
+        "annotated": true
       }
-    }
+    },
+    "n_images_in_annotated_splits": 260
   },
   "geographic_coverage": {
     "countries": [
@@ -145,39 +147,39 @@
     "temporal_scope": "CrackTree 2012, reused by DeepCrack 2019"
   },
   "quality_assurance": {
-    "annotation_quality": "Pixel-level masks distributed in the DeepCrack dataset release",
+    "annotation_quality": "Pixel-level binary crack masks distributed in the DeepCrack dataset release (introduced in DeepCrack 2019 as an expansion of the CrackTree206 predecessor lineage from Zou et al. 2012).",
     "inter_annotator_agreement": "Not reported",
     "review_status": "Published research dataset"
   },
   "authors": [
     {
       "name": "Qin Zou",
-      "affiliation": "Wuhan University",
+      "affiliation": "School of Computer Science, Wuhan University, Wuhan, China",
       "role": "Dataset Creator"
     },
     {
       "name": "Zheng Zhang",
-      "affiliation": "Wuhan University",
+      "affiliation": "School of Computer Science, Wuhan University, Wuhan, China",
       "role": "Dataset Creator"
     },
     {
       "name": "Qingquan Li",
-      "affiliation": "Shenzhen University",
+      "affiliation": "Shenzhen Key Laboratory of Spatial Smart Sensing and Service, Shenzhen University, Shenzhen, China",
       "role": "Dataset Creator"
     },
     {
       "name": "Xianbiao Qi",
-      "affiliation": "Shenzhen Research Institute of Big Data",
+      "affiliation": "Shenzhen Research Institute of Big Data, Shenzhen, China",
       "role": "Dataset Creator"
     },
     {
       "name": "Qian Wang",
-      "affiliation": "Wuhan University",
+      "affiliation": "School of Computer Science, Wuhan University, Wuhan, China",
       "role": "Dataset Creator"
     },
     {
       "name": "Song Wang",
-      "affiliation": "University of South Carolina",
+      "affiliation": "Department of Computer Science and Engineering, University of South Carolina, Columbia, SC, USA",
       "role": "Dataset Creator"
     }
   ],
@@ -189,7 +191,7 @@
     "homepage": "https://github.com/qinnzou/DeepCrack"
   },
   "citation": {
-    "bibtex": "@article{zou2018deepcrack,\n  title = {Deepcrack: Learning Hierarchical Convolutional Features for Crack Detection},\n  author = {Zou, Qin and Zhang, Zheng and Li, Qingquan and Qi, Xianbiao and Wang, Qian and Wang, Song},\n  journal = {IEEE Transactions on Image Processing},\n  volume = {28},\n  number = {3},\n  pages = {1498--1512},\n  year = {2019},\n  url = {https://ieeexplore.ieee.org/document/8517148}\n}\n\n@article{zou2012cracktree,\n  title = {CrackTree: Automatic crack detection from pavement images},\n  author = {Zou, Qin and Cao, Yu and Li, Qingquan and Mao, Qingzhou and Wang, Song},\n  journal = {Pattern Recognition Letters},\n  volume = {33},\n  number = {3},\n  pages = {227--238},\n  year = {2012},\n  url = {https://www.sciencedirect.com/science/article/abs/pii/S0167865511003795}\n}"
+    "bibtex": "@article{zou2019deepcrack,\n  title = {DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection},\n  author = {Zou, Qin and Zhang, Zheng and Li, Qingquan and Qi, Xianbiao and Wang, Qian and Wang, Song},\n  journal = {IEEE Transactions on Image Processing},\n  volume = {28},\n  number = {3},\n  pages = {1498--1512},\n  year = {2019},\n  doi = {10.1109/TIP.2018.2878966},\n  url = {https://ieeexplore.ieee.org/document/8517148}\n}\n\n@article{zou2012cracktree,\n  title = {CrackTree: Automatic crack detection from pavement images},\n  author = {Zou, Qin and Cao, Yu and Li, Qingquan and Mao, Qingzhou and Wang, Song},\n  journal = {Pattern Recognition Letters},\n  volume = {33},\n  number = {3},\n  pages = {227--238},\n  year = {2012},\n  doi = {10.1016/j.patrec.2011.11.004},\n  url = {https://www.sciencedirect.com/science/article/abs/pii/S0167865511003795}\n}"
   },
   "tags": [
     "segmentation",

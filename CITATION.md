@@ -4,10 +4,10 @@ If you use this package, please cite the source publications.
 
 ## Source Publications
 
-Zou, Q., Zhang, Z., Li, Q., Qi, X., Wang, Q., & Wang, S. (2019). DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. IEEE Transactions on Image Processing.
+Zou, Q., Zhang, Z., Li, Q., Qi, X., Wang, Q., & Wang, S. (2019). DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection. IEEE Transactions on Image Processing, 28(3), 1498–1512. doi: 10.1109/TIP.2018.2878966
 - https://ieeexplore.ieee.org/document/8517148
 
-Zou, Q., Cao, Y., Li, Q., Mao, Q., & Wang, S. (2012). CrackTree: Automatic crack detection from pavement images. Pattern Recognition Letters, 33(3), 227-238.
+Zou, Q., Cao, Y., Li, Q., Mao, Q., & Wang, S. (2012). CrackTree: Automatic crack detection from pavement images. Pattern Recognition Letters, 33(3), 227–238. doi: 10.1016/j.patrec.2011.11.004
 - https://www.sciencedirect.com/science/article/abs/pii/S0167865511003795
 
 ## Source Dataset
